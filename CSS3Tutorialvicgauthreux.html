@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vic's Awesome CSS3 Tutorial</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="normalize.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="page">
+			<h2 style="text-shadow: 5px 5px 5px #506868;">10 Awesome CSS3 Features to Know</h2>
+<hr>
+<section id="content">
+<h3>1. Rounded Corners</h3>
+    <p>Using the border-radius property is how you create rounded corners.</p>
+    <p></p>
+         
+        <p><strong>Example Code:</strong>
+            "div {
+            border: 2px solid;
+            border-radius: 25px;
+            }"
+        </p>
+        <figure class="centered">
+            <img id="fig1" style="border-radius: 25px;" src="images/img1.jpg" width="400" height="266" alt=""  />
+            <figcaption>notice how this image has nice rounded corners.</figcaption>
+        </figure>
+        </div>
+        <p></p>
+        <p><a href="http://www.w3schools.com/css/css3_borders.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<section>
+<h3>2. CSS3 box-shadow Property</h3>
+    <p>Using the box shadow is simple, if you apply the <em>"example"</em> code to your property you can have a shadow cast in any direction.</p>
+    <p>Symtax: box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;</p>
+        <p><strong>Example Code:</strong>
+            div {
+            box-shadow: 10px 10px 5px #888888;
+            }
+        </p>
+        <figure class="centered">
+            <img src="images/img1.jpg" style="box-shadow: 10px 10px 5px #888888;" width="400" height="266" alt=""/>
+            <figcaption>notice the image has a shadow</figcaption>
+        </figure>
+        </div>
+        <p></p>
+        <p><a href="http://www.css3.info/preview/box-shadow/">Click here for more Information.</a></p>
+</section>
+<hr>
+<section>
+<h3>3. Text-Shadow</h3>
+    <p>Having a shadow set for you text is a new feature made easy in CSS3</p>
+    <p>You specify the horizontal shadow, the vertical shadow, the blur distance, and the color of the shadow</p>        
+        <p><strong>Example Code:</strong>
+            h1 {
+            text-shadow: 5px 5px 5px #FF0000;
+            }
+        </p>
+        <figure class="centered">
+            <h1 style="text-shadow: 5px 5px 5px #FF0000;">Text-shadow effect!!!!</h1>
+            <figcaption>notice the text above has an awesome shadow now</figcaption>
+        </figure>
+        </div>
+        <p></p>
+        <p><a href="http://www.w3schools.com/css/css3_text_effects.asp">Click here for more Information.</a></p>
+</section>
+<hr>
+<section>
+<h3>4. Resizing Background Images Using CSS3</h3>
+    <p>CSS3 allows you to set the size of the background with a simple style now.</p>
+    <p></p>
+        <p><strong>Example Code:</strong>
+            
+        </p>
+        style="
+                background: url(images/img2.jpg);
+                background-size: 80px 60px;
+                background-repeat: no-repeat;
+                padding-top: 40px;"
+        <figure class="centered" style="
+                background: url(images/img2.jpg);
+                background-size: 80px 60px;
+                background-repeat: no-repeat;
+                padding-top: 40px;">
+            
+            <p>
+            This is to show you that it is possible to resize an image with CSS3
+            </p><figcaption></figcaption>
+            <p>Original image: <img src="images/img2.jpg" alt="Pic" width="224" height="162"></p>
+            
+        </figure>
+        </div>
+        <p></p>
+        <p><a href="http://www.w3schools.com/cssref/css3_pr_background-size.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<section>
+    <p></p>
+
+<h3>5. Animation</h3>
+    <p></p>
+    <p>
+        "Bind the "myfirst" animation to the "div" element. Animation duration: 5 seconds:"
+    </p>
+        
+        <p><strong>Example Code:</strong>
+            div {
+            -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+            animation: myfirst 5s;
+            }
+            /* Chrome, Safari, Opera */
+            @-webkit-keyframes myfirst {
+                from {background: red;}
+                to {background: yellow;}
+            }    
+            /* Standard syntax */
+            @keyframes myfirst {
+                    from {background: red;}
+                to {background: yellow;}
+            }
+        </p>
+        <figure class="centered">
+            <div id="ani"></div>
+            <figcaption>notice if you refresh the page it turns from red to yellow</figcaption>
+        </figure>
+        </div>
+    <p></p>
+    <p><a href="http://www.w3schools.com/css/css3_animations.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<section>
+<h3>6. CSS3 word-wrap Property</h3>
+    <p>This is a great feature with CSS3, making the text wrap can inprove any and every website.</p>
+    <p>Syntax: word-wrap: normal|break-word|initial|inherit;</p>
+        
+        <p><strong>Example Code:</strong>           
+        p.test {
+        width: 11em; 
+        border: 3px solid #000000;
+        word-wrap: break-word;
+            }    
+        </p>
+       
+        <p class="text"> This will demonstrate how the word-wrap works. "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete
+             account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+             No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+             rationally encounter consequences that are extremely painful.</p>
+       </div>
+        </div>
+    <p></p>
+    <p><a href="http://www.w3schools.com/cssref/css3_pr_word-wrap.asp">Click here for more Information.</a>
+    </p>
+</section>
+
+
+<hr>
+<section>
+<h3>7. Create Multiple Columns</h3>
+    <p>With CSS3, you can create multiple columns for laying out text - like in newspapers!
+
+In this chapter you will learn about the following multiple column properties:</p>
+    <p>The column-count property specifies the number of columns an element should be divided into:</p>
+    <p></p>
+            <p><strong>Example Code:</strong>
+            div {
+            -webkit-column-count: 3; /* Chrome, Safari, Opera */
+            -moz-column-count: 3; /* Firefox */
+            column-count: 3;
+            }
+            </p>
+            <figure class="centered" style="
+            -webkit-column-count: 3; /* Chrome, Safari, Opera */
+            -moz-column-count: 3; /* Firefox */
+            column-count: 3;">
+             "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete
+             account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+             No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+             rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain
+             of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+             To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who
+             has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that
+             produces no resultant pleasure?"
+            </div>
+            <figcaption>now we have 3 columns instead of 1</figcaption>
+        </figure>
+        
+    <p></p>
+    <p><a href="http://www.w3schools.com/css/css3_multiple_columns.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<section>
+<h3>8. Linear Gradients</h3>
+    <p>Creating a linear gradient is easier now with CSS3 just define at least two color stops.
+        Color stops are the colors you want to render smooth transitions into each. You can
+        also set a starting point and a direction (or an angle) along with the gradient effect.</p>
+
+        
+        <p><strong>Example Code:</strong>
+            #grad {
+              background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+              background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+              background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+              background: linear-gradient(red, blue); /* Standard syntax */
+            }
+        </p>
+        
+            <figure style="height: 200px;
+                background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(red, blue);"></div>
+            <figcaption>notice the color changes from red to blue</figcaption>
+        </figure>
+        </div>
+    <p></p>
+    <p><a href="http://www.w3schools.com/css/css3_gradients.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<section>
+<h3>9. Using Bold Text</h3>
+    <p>CSS3 makes another way to bold your text from the style sheet. </p>   
+    <p>@font-face {font-properties}</p>
+            <p><strong>Example Code:</strong>
+                @font-face {
+                font-family: myFirstFont;
+                src: url(sansation_light.woff);
+                    }
+                div {
+                   font-family: myFirstFont;
+                }
+            </p>
+            
+            <figure class="centered">
+                <p id="fonts">
+                We will use the example code to <b>"demonstrate"</b> the use bold text.
+                </p>
+            </figure>
+        </div>
+    <p></p>
+    <p><a href="http://www.w3schools.com/cssref/css3_pr_font-face_rule.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<section>
+<h3>10. Transition</h3>
+    <p>CSS3 transitions are effects that let an element gradually change from one style to another.</p>
+    <p>The transition properties allow elements to change values over a specified duration, making it appear the property changes.</p> 
+        <p><strong>Example Code:</strong>div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s;
+            }
+            div:hover {
+            width: 300px;
+            }
+        </p>
+        <style id="box">
+            div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s;
+            }
+            div:hover {
+            width: 300px;
+            }
+        </style>
+        <div id="box"></div>
+        </div>
+    <p><a href="http://www.w3schools.com/css/css3_transitions.asp">Click here for more Information.</a>
+    </p>
+</section>
+<hr>
+<footer class="container">
+    <p>Created by Vic Gauthreaux </p>
+</footer>
+</section>
+</body>
+</html>
